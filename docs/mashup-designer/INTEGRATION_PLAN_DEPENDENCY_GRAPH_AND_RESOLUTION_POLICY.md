@@ -166,3 +166,4 @@ flowchart TD
 - **Stage 0 Invariant:** Universal adapter initialization and core platform resources must always inhabit Stage 0. No application component or workflow may execute in Stage 0.
 - **Stage Progression Invariant:** No item in Stage $K$ may begin execution until all items in Stage $K-1$ have reported successful initialization or completion.
 - **Atomic Rollback Invariant:** If any hard-dependency item within Stage $K$ fails, execution halts immediately and triggers reverse-order compensation across Stages $K \rightarrow 0$.
+

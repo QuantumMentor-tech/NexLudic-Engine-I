@@ -102,3 +102,4 @@ Under no circumstances may a cross-game data mapping (Step 47) or interaction wo
 - Unfiltered clipboard contents.
 
 Any data mapping or workflow referencing prohibited personal data elements triggers diagnostic `ERR_PRIVACY_DATA_LEAK_DETECTED` and immediately marks the plan `INVALID`.
+

@@ -149,3 +149,4 @@ The engine supports partial plan assembly (`ASSEMBLED_PARTIAL`) under strictly d
 | **Redundant Dependency Edge** | Item A depends on Item B via multiple declarations. | Keep edge with the highest severity (`is_hard_dependency = true`). | `INFO_REDUNDANT_EDGE_MERGED` |
 | **Conflicting Property Units** | Step 47 specifies meters $\rightarrow$ feet; Step 48 assumes metric. | Step 47 data mapping specification governs. Workflow step updated. | `WARN_MAPPING_PRECEDENCE_ENFORCED` |
 | **Conflicting Component Host** | Blueprint assigns component to Host A; mapping references Host B. | Blueprint governs. Mapping reference corrected or rejected. | `ERR_COMPONENT_HOST_MISMATCH` |
+

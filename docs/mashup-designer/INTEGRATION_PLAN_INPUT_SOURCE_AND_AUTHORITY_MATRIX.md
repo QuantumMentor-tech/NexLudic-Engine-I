@@ -90,3 +90,4 @@ Once an integration plan reaches `ACCEPTED_FOR_PLANNING` or `ACCEPTED_WITH_RISKS
 | **Blueprint vs. Workflow** | Workflow step connects components without a defined blueprint interface. | Blueprint governs. Workflow step rejected as boundary violation. | `ERR_UNDECLARED_COMPONENT_INTERFACE` |
 | **Data Mapping vs. Workflow** | Workflow passes unmapped fields between game contexts. | Mapping governs. Workflow step halted until transformation is defined. | `ERR_UNMAPPED_DATA_HANDOFF` |
 | **Anti-Cheat vs. Strategy** | Selected strategy requires process attachment on EAC-protected title. | Tier 0 Security governs. Strategy vetoed. Plan marked `INVALID`. | `ERR_ANTI_CHEAT_POLICY_VIOLATION` |
+

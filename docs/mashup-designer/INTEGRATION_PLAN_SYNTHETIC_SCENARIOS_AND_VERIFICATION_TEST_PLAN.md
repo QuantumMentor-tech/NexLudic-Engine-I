@@ -160,3 +160,4 @@ All scenarios execute against the canonical reference pairing established in Ste
 - **Expected Diagnostics:** `ERR_PRECONDITION_PHASE5_BLOCKED`.
 - **Expected Lifecycle State:** **`INVALID`**.
 - **Verification Assertions:** Precondition `PRE-PLN-07` halts assembly at Stage 03. Plan cannot be generated.
+

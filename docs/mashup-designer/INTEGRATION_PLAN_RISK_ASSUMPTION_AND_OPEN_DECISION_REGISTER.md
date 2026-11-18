@@ -78,3 +78,4 @@ The status of open decisions directly governs whether a plan can achieve full ac
    - Technical rationale;
    - Approval signature;
    - New plan revision increment.
+
