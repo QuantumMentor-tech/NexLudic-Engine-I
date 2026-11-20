@@ -35,3 +35,4 @@ public sealed class CommunicationFaultConfig
         SimulateUncertainOutcome = false;
     }
 }
+

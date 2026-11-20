@@ -23,3 +23,4 @@ public sealed class MessageValidationResult
     public static MessageValidationResult Fail(string errorCode, string message, int stage) =>
         new(false, errorCode, message, stage);
 }
+

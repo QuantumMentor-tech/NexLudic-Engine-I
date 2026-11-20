@@ -17,3 +17,4 @@ public enum MessageLifecycleState
     Verified,
     Failed
 }
+

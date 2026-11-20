@@ -83,3 +83,4 @@ public class EndpointLifecycleScenarioTests
         Assert.Empty(endpoint.ReceivedMessages);
     }
 }
+

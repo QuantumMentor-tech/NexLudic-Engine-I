@@ -12,3 +12,4 @@ public enum MessageCategory
     Acknowledgement,
     ErrorSignal
 }
+
