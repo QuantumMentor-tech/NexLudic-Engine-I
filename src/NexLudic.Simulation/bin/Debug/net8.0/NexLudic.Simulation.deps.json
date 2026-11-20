@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NexLudic.Simulation/1.0.0": {
+        "runtime": {
+          "NexLudic.Simulation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NexLudic.Simulation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
